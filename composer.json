@@ -1,0 +1,27 @@
+{
+  "name": "ddaproduction/multifields-parser",
+  "type": "EvolutionCMS-Package",
+  "license": "GPL-2.0",
+  "description": "MultiFields Parser",
+  "authors": [
+    {
+      "name": "Alexandr Klymas",
+      "email": "klimsslaex@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\MFParser\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\MFParser\\MFParserServiceProvider"
+      ]
+    }
+  }
+}
