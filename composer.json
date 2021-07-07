@@ -1,6 +1,6 @@
 {
-  "name": "ddaproduction/multifields-parser",
-  "type": "EvolutionCMS-Package",
+  "name": "klym/multifields-parser",
+  "type": "evolution-cms-package",
   "license": "GPL-2.0",
   "description": "MultiFields Parser",
   "authors": [
