@@ -1,2 +1,2 @@
-Install to Evolution CMS
-php artisan package:installrequire klym/multifields-parser: "*"
+##Install
+`php artisan package:installrequire klym/multifields-parser: "*"` in you **core/** folder
